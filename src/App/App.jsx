@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import { nanoid } from 'nanoid';
 
 import css from './App.module.css'
-import ContactForm from '../ContactForm/ContactForm';
-import ContactList from '../ContactList/ContactList';
-import SearchBox from '../SearchBox/SearchBox';
+import ContactForm from '../components/ContactForm/ContactForm';
+import ContactList from '../components/ContactList/ContactList';
+import SearchBox from '../components/SearchBox/SearchBox';
 
 const firstNumbers = [
   {id: 'id-1', name: 'Rosie Simpson', number: '459-12-56'},
